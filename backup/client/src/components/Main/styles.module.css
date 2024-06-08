@@ -1,0 +1,59 @@
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color:  #377771;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar h1 {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 200px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.pole {
+	/* Wysokość wykresu */
+	min-height: 100%;
+   margin: 50px auto; /* Wycentrowanie i marginesy */
+   padding: 20px; /* Padding wewnętrzny */
+   background-color: #ffffff; /* Kolor tła */
+   border-radius: 12px; /* Zaokrąglone narożniki */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cień wokół div */
+   overflow: hidden; /* Ukrycie nadmiarowego contentu */
+   align-items: center;
+   
+ }
+
+ .pole h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+  }
+  
+  .pole img {
+	width: 30%;
+	height: auto;
+	margin: 20px 0;
+  }
+  
+  .pole p {
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: justify;
+	margin: 0 20px;
+	
+  }

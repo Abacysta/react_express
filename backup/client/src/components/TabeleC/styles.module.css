@@ -1,0 +1,80 @@
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #377771;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar h1 {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+
+ h2 {
+	font-size: 24px; /* Rozmiar czcionki */
+	margin: 20px; /* Margines dolny */
+	text-align: center; /* Wycentrowanie tekstu */
+	color: #333; /* Kolor tekstu */
+  }
+
+.tablecontainer {
+	/* Wysokość wykresu */
+	width: 100%;
+	min-height: 100%;
+   margin: 50px auto; /* Wycentrowanie i marginesy */
+   padding: 20px; /* Padding wewnętrzny */
+   background-color: #ffffff; /* Kolor tła */
+   border-radius: 12px; /* Zaokrąglone narożniki */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cień wokół div */
+   overflow: hidden; /* Ukrycie nadmiarowego contentu */
+   align-items: center;
+   
+ }
+
+ .ant-table-column-Nazwa {
+	text-align: left; /* Wyśrodkowanie tekstu do prawej strony */
+  }
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	
+	width: 200px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.download_container {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .download_btn {
+	background-color: #3D8F87; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+  }
+  
+  .download_btn:hover {
+	background-color: #49ABA2;
+  }
+  
+  
